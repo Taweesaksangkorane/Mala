@@ -1,1 +1,12 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+public class Main {
+   public Main() {
+   }
 
+   public static void main(String[] var0) {
+      Store var1 = new Store();
+      var1.loadStock();
+      var1.run();
+      var1.saveOrders();
+   }
+}
