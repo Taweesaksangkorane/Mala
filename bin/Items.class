@@ -1,1 +1,28 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+public abstract class Item {
+   protected String name;
+   protected int stock;
 
+   public Item(String var1, int var2) {
+      this.name = var1;
+      this.stock = var2;
+   }
+
+   public String getName() {
+      return this.name;
+   }
+
+   public int getStock() {
+      return this.stock;
+   }
+
+   public void reduceStock(int var1) throws Exception {
+      if (var1 > this.stock) {
+         throw new Exception("Not enough stock for " + this.name);
+      } else {
+         this.stock -= var1;
+      }
+   }
+
+   public abstract int getPrice();
+}
