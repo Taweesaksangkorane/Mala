@@ -36,8 +36,10 @@ selected products to the store staff to charge.
 • Check and update stock - The system will automatically deduct the number of products after the customer orders. 
 • Reading/writing files - Keep customer and product information in a file for data security. 
 • Manage errors (Exception Handling)  - Detect incorrect values such as negative numbers or out of stock. 
+
 GitHub repository 
 https://github.com/Taweesaksangkorane/Mala 
+
 Class Diagram 
 https://drive.google.com/file/d/1dyQaS9plYz2TUkLj3-vE_L3DcIY5VuFw/view?usp=sharing
 ![image](https://github.com/user-attachments/assets/366ac6d2-d573-43aa-bb72-088656ccd007)
