@@ -1,0 +1,6 @@
+Customer: Art
+Order:
+ - Chicken x200 = 4000 Baht
+ - Pork x20 = 400 Baht
+Total: 4400 Baht
+

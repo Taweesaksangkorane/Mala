@@ -1,0 +1,9 @@
+Meat,Pork,200
+Meat,Chicken,200
+Meat,Beef,200
+Vegetable,Mushroom,200
+Vegetable,Corn,200
+Vegetable,Cabbage,200
+Drink,Water,200
+Drink,Cola,200
+Drink,Est,200
