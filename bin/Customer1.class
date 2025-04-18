@@ -1,0 +1,44 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+public class Customer {
+   private String name;
+   private Map<String, Integer> orderMap = new LinkedHashMap();
+   private Map<String, Integer> priceMap = new HashMap();
+
+   public Customer(String var1) {
+      this.name = var1;
+   }
+
+   public void addItem(Item var1) {
+      String var2 = var1.getName();
+      this.orderMap.put(var2, (Integer)this.orderMap.getOrDefault(var2, 0) + 1);
+      this.priceMap.put(var2, var1.getPrice());
+   }
+
+   public int calculateTotal() {
+      int var1 = 0;
+
+      String var3;
+      for(Iterator var2 = this.orderMap.keySet().iterator(); var2.hasNext(); var1 += (Integer)this.orderMap.get(var3) * (Integer)this.priceMap.get(var3)) {
+         var3 = (String)var2.next();
+      }
+
+      return var1;
+   }
+
+   public String getName() {
+      return this.name;
+   }
+
+   public Map<String, Integer> getOrderMap() {
+      return this.orderMap;
+   }
+
+   public Map<String, Integer> getPriceMap() {
+      return this.priceMap;
+   }
+}
