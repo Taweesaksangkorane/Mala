@@ -30,12 +30,18 @@ in many aspects effectively.
 Functional List  
 
 • Manage customer information  - The system can register customers and count the number of each person's visits to the store. 
+
 • Mala ordering system  - Customers can choose products in the basket that the store has prepared for them and bring the 
 selected products to the store staff to charge. 
+
 • Automatic price calculation  - The system will charge according to the price of each product type and the number of wood. 
+
 • Check and update stock - The system will automatically deduct the number of products after the customer orders. 
+
 • Reading/writing files - Keep customer and product information in a file for data security. 
+
 • Manage errors (Exception Handling)  - Detect incorrect values such as negative numbers or out of stock. 
+
 
 GitHub repository 
 https://github.com/Taweesaksangkorane/Mala 
