@@ -48,5 +48,5 @@ https://github.com/Taweesaksangkorane/Mala
 
 Class Diagram 
 https://drive.google.com/file/d/1dyQaS9plYz2TUkLj3-vE_L3DcIY5VuFw/view?usp=sharing
-![image](https://github.com/user-attachments/assets/366ac6d2-d573-43aa-bb72-088656ccd007)
+
 
